@@ -12,7 +12,9 @@ Additional files in the repo are the code book, the .R file used to execute the 
   
  + run_analysis.R
   
- + TidyData.csv
+ + TidyData.csv (easier to read at a glance than .txt file)
+ 
+ + TidyData.txt (original assignment asked for a .txt file)
   
-You can replicate TidyData.csv by downloading the data linked above and executing the commented R code.  You will need to change setwd() to reflect your own working directory.
+You can replicate TidyData.txt by downloading the data linked above and executing the commented R code.  You will need to change setwd() to reflect your own working directory.
   
