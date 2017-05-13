@@ -1,3 +1,6 @@
+A list of all variables is found in features.txt
+A description of the variables is found in features_info.txt.
+
 In brief, a tidy dataset is created from smartphone accelerometer data collected in a project described in a link given in ReadMe.md.  Note that not all of the files will be used. This code uses only:
 + x_test.txt
 + y_text.txt
@@ -10,6 +13,7 @@ Note that x_test.txt and x_train.txt contain the accelerometer data. y_test.txt 
 + features.txt (x-data column identifiers)
 + activity_labels.txt (key to the activity codes used in the y-data)
 
+
 The order of operations is as follows:
 
 0.  Set working directory to reflect the location of the unzipped data (the user will need to modify this).
@@ -18,6 +22,8 @@ The order of operations is as follows:
 3.  Use the activity labels key to descriptively label the activities
 4.  Appropriately label the data set with descriptive variable names (this gets done as a matter of course in Step 1)
 5.  Create a second tidy data set from the one produced in Step 4 with the average of each variable for each activity and subject 
+
+
 
 The output dataset is contained in TidyData.csv.
 
