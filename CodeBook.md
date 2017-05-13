@@ -1,5 +1,6 @@
-A list of all variables is found in features.txt
-A description of the variables is found in features_info.txt.
+## A list of all variables is found in features.txt
+
+## A description of the variables is found in features_info.txt.
 
 In brief, a tidy dataset is created from smartphone accelerometer data collected in a project described in a link given in ReadMe.md.  Note that not all of the files will be used. This code uses only:
 + x_test.txt
