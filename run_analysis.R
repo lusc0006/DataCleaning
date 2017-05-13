@@ -51,7 +51,7 @@ tidydata<-melt(mean_sd,id=c("Subject_ID","activity"))
 tidy<-dcast(tidydata,Subject_ID+activity~variable,mean)
 
 # write out the new data set
-write.csv(tidy,"TidyData.csv")
+write.table(tidy,"TidyData.txt",row.names=FALSE)
 
 
 
